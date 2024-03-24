@@ -2,5 +2,6 @@
 echo -e "Where is your backup files located?"
 read backupfolder
 for backupfile in $backupfolder/*.{tar,tar.gz}; do
-    echo -e "$backupfile"
+    echo -e "$backupfile restoring..."
+    /scripts/restorepkg $backupfile
 done
