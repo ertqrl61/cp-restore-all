@@ -1,6 +1,6 @@
 #!/bin/sh
-echo -e "Where is your backup files located? \n"
+echo -e "Where is your backup files located?"
 read backupfolder
 for backupfile in $backupfolder/*.tar; do
-    echo -e "$backupfile \n"
+    echo -e "$backupfile"
 done

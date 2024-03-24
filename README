@@ -1,4 +1,5 @@
-Put all cpanel backups in a folder. Than run script and type your backups folder path.
+Put all cpanel backups in a folder. 
+Than run script and type your backups folder path ex: /home/backup
 
 git clone https://github.com/ertqrl61/cp-restore-all.git
 cd cp-restore-all
